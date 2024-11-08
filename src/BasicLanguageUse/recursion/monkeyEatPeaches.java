@@ -20,7 +20,5 @@ public class monkeyEatPeaches {
     public static void main(String[] args) {
         System.out.println(findTotal(10));
         System.out.println(total(10));
-// see if this can be pulled
-        System.out.println("Hello man");
     }
 }
