@@ -20,6 +20,5 @@ public class monkeyEatPeaches {
     public static void main(String[] args) {
         System.out.println(findTotal(10));
         System.out.println(total(10));
-//        test if I can push successfully
     }
 }
