@@ -1,7 +1,8 @@
 package BasicLanguageUse.ContrlStructures;
 
 public class Practice3_NarcissisticNumber {
-    /*
+    /* 水仙花数
+     *
      * A Narcissistic Number, also known as an Armstrong Number,
      * is an n-digit number that is equal to the sum
      * of its digits each raised to the power of n.
@@ -22,7 +23,7 @@ public class Practice3_NarcissisticNumber {
             int UnitsPlace = i % 10; // 个位
             int TensPlace = i % 100 / 10; // 十位
             int HundredsPlace = i / 100; // 百位
-            if (Math.pow(HundredsPlace,3) + Math.pow(TensPlace, 3) + Math.pow(UnitsPlace, 3) == i){
+            if (Math.pow(HundredsPlace, 3) + Math.pow(TensPlace, 3) + Math.pow(UnitsPlace, 3) == i) {
                 System.out.println(i);
                 count++;
             }

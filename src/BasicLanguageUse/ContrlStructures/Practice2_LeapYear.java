@@ -3,7 +3,7 @@ package BasicLanguageUse.ContrlStructures;
 import java.util.Scanner;
 
 public class Practice2_LeapYear {
-    /*
+    /* 闰年判断
      * If a year is divisible by 4 but not by 100,
      * or if it is divisible by 400, it is a leap year.*/
     public static void main(String[] args) {
