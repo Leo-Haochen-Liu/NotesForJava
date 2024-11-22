@@ -1,6 +1,7 @@
 package BasicLanguageUse.ContrlStructures;
 
 public class Practice10_BubbleSort {
+
     /*
     use Bubble Sort to sort the array(from small to big)
      */
@@ -18,6 +19,8 @@ public class Practice10_BubbleSort {
         }
         return sortedArr;
     }
+
+    // check the result
 
     public static void main(String[] args) {
         double[] arr = {0, -0.1, 3.9, 2.6, -9.9, 8, -10};

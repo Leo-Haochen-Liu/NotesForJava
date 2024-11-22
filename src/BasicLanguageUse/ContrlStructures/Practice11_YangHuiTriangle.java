@@ -2,6 +2,15 @@ package BasicLanguageUse.ContrlStructures;
 
 public class Practice11_YangHuiTriangle {
 
+    /*
+    * I use two methods to complete the Yang Hui Triangle task
+    *
+    * The first method is rollOfYangHui, which input roll number, and return that roll
+    * first two rolls are setting up, and from the third roll I use recursion
+    *
+    * The second method is printYangHui, which input toRoll(number),
+    * and print all the numbers to that roll*/
+
     public static int[] rollOfYangHui(int rollNum) {
         int[] rollOfYangHui = new int[rollNum];
         if (rollNum == 1) {
